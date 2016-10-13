@@ -3,8 +3,8 @@ import './logging.aspect';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Component } from "@angular/core";
-import { Wove } from "aspect.js";
-//import { Wove } from 'aspect.js-angular';
+// import { Wove } from "aspect.js";
+import { Wove } from 'aspect.js-angular';
 
 @Wove()
 @Component({
